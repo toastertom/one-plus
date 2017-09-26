@@ -2,11 +2,13 @@ import React from 'react';
 import { render } from 'react-dom';
 import './index.css';
 
-import PaymentForm from './components/paymentForm';
+import App from './components/App';
+import PaymentForm from './components/PaymentForm';
 import registerServiceWorker from './registerServiceWorker';
 
 
 // Components
-render(<PaymentForm/>, document.querySelector('#root'));
+
+render(<App/>, document.querySelector('#root'));
 
 registerServiceWorker();
