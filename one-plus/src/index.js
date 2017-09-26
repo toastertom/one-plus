@@ -2,11 +2,11 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import './index.css';
+import './styles/index.css';
 
 // Components
-import Home from './components/Home';
-import Checkout from './components/Checkout';
+import Home from './components/HomePg';
+import Checkout from './components/CheckoutPg';
 import PaymentForm from './components/PaymentForm';
 import registerServiceWorker from './registerServiceWorker';
 
