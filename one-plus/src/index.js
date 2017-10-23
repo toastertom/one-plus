@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import './styles/index.css';
+// import './styles/index.css';
 
 // Components
 import Home from './components/HomePg';
